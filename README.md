@@ -10,7 +10,7 @@ Once a winner is chosen by the contract, the contract owner then clicks "Pay Win
 
 Please see a video of the Lottery Dapp in action [here](https://youtube.com)
 
-![Alt text](/UI.png?raw=true "Lottery Dapp UI")
+![Alt text](/public/UI.png "Lottery Dapp UI")
 
 ## Frontend
 
