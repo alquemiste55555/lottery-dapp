@@ -1,4 +1,4 @@
-## Lottery Dapp
+# Lottery Dapp
 
 A Lottery Dapp that allows participants to enter a lottery by sending a 0.001 ETH admission fee to the smart contract. 
 
@@ -14,7 +14,7 @@ Please see a video of the Lottery Dapp in action [here](https://youtube.com)
 - ```Lottery.sol``` leverages [Chainlink VRF V2 (Verifiable Random Function)](https://docs.chain.link/vrf/v2/introduction/) to retrieve a random value to determine the winner of the lottery without compromising security or usability.
 - The frontend was built using [NextJS](https://nextjs.org/), [ReactJS](https://reactjs.org/) and [Bulma](https://bulma.io/).
 - The development environment included [Truffle)](https://trufflesuite.com/), [NodeJS](https://nodejs.org/en/) & [Visual Studio](https://visualstudio.microsoft.com/)
-
+<br><br><br>
 ![Alt text](/public/UI.png "Lottery Dapp UI")
 
 
