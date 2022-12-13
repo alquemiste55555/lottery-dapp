@@ -1,6 +1,6 @@
 ## Lottery Dapp
 
-Lottery is a dapp that allows participants to enter a lottery by sending a 0.001 ETH admission fee to the smart contract. 
+A Lottery Dapp that allows participants to enter a lottery by sending a 0.001 ETH admission fee to the smart contract. 
 
 Participants admission fees accumulate in the smart contract until they are eventually awarded to the winner of the lottery.  
 
