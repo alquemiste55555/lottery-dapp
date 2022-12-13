@@ -9,7 +9,7 @@ Once all participants have entered, the contract owner clicks the "Pick Winner" 
 Once a winner is chosen by the contract, the contract owner then clicks "Pay Winner" and the smart contract initiates a transfer of the accumulated funds in the smart contract to the winners ETH address. 
 
 Please see a video of the Lottery Dapp in action [here](https://youtube.com)
-
+<br><br><br>
 - The smart contract ```Lottery.sol``` was deployed on the Goerli ETH Testnet @ [0x7505c04b396c9e133ca912021e680f335f6db131](https://goerli.etherscan.io/address/0x7505c04b396c9e133ca912021e680f335f6db131)
 - ```Lottery.sol``` leverages [Chainlink VRF V2 (Verifiable Random Function)](https://docs.chain.link/vrf/v2/introduction/) to retrieve a random value to determine the winner of the lottery without compromising security or usability.
 - The frontend was built using [NextJS](https://nextjs.org/), [ReactJS](https://reactjs.org/) and [Bulma](https://bulma.io/).
