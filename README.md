@@ -1,4 +1,4 @@
-## Introduction
+## Lottery Dapp
 
 Lottery is a dapp that allows participants to enter a lottery by sending a 0.001 ETH admission fee to the smart contract. 
 
@@ -10,28 +10,11 @@ Once a winner is chosen by the contract, the contract owner then clicks "Pay Win
 
 Please see a video of the Lottery Dapp in action [here](https://youtube.com)
 
+- The smart contract ```Lottery.sol``` was deployed on the Goerli ETH Testnet @ [0x7505c04b396c9e133ca912021e680f335f6db131](https://goerli.etherscan.io/address/0x7505c04b396c9e133ca912021e680f335f6db131)
+- ```Lottery.sol``` leverages [Chainlink VRF V2 (Verifiable Random Function)](https://docs.chain.link/vrf/v2/introduction/) to retrieve a random value to determine the winner of the lottery without compromising security or usability.
+- The frontend was built using [NextJS](https://nextjs.org/), [ReactJS](https://reactjs.org/) and [Bulma](https://bulma.io/).
+- The development environment included [Truffle)](https://trufflesuite.com/), [NodeJS](https://nodejs.org/en/) & [Visual Studio](https://visualstudio.microsoft.com/)
+
 ![Alt text](/public/UI.png "Lottery Dapp UI")
-
-## Frontend
-
-The frontend was built using [NextJS](https://nextjs.org/),[ReactJS](https://reactjs.org/),[Bulma](https://bulma.io/) and [NodeJS](https://nodejs.org/en/).
-
-## Backend
-
-The smart contract ```Lottery.sol``` was deployed on the Goerli ETH Testnet @ [0x7505c04b396c9e133ca912021e680f335f6db131](https://goerli.etherscan.io/address/0x7505c04b396c9e133ca912021e680f335f6db131)
-
-```Lottery.sol``` leverages [Chainlink VRF V2 (Verifiable Random Function)](https://docs.chain.link/vrf/v2/introduction/) to retrieve a random value to determine the winner of the lottery without compromising security or usability.
-
-## Prerequisites
-
-- [NodeJS](https://nodejs.org/en/).
-- Goerli ETH Testnet connection on Metamask.
-
-## Getting Started
-
-1. Fork this repo. 
-2. Run ```npm run dev``` in the  ```Lottery``` directory on your machine. 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
 
 
